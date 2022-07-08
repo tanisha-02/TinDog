@@ -1,0 +1,192 @@
+body
+{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#title
+{
+    text-align: left;
+    background-color: #ff4c68;
+}
+.container-fluid
+{
+    padding: 3% 15%;
+}
+/*if we want to enclose all the sections in our container fluid as they have the same padding of 
+7% and 15% then we can make one universal container fluid for all by adding it to every section but
+this would add 7%padding-up to our title section as well and also if we have specified 
+text-align:center in the body then it will also be applied to our title section which we don't want 
+therefore we can specify our need by stating as follows
+#title.container-fluid
+{
+    padding-top: 3% ;
+    text-align:left;
+}*/
+h1,h2,h3,h4,h5,h6
+{
+    font-family: "Montserrat";
+}
+h1
+{
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: white;
+}
+h2
+{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: 400;
+}
+h3
+{
+    line-height: 1.5;
+    font-weight: 400;
+}
+p
+{
+    color:grey;
+}
+.navbar
+{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item
+{
+    padding:0 18px;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+}
+.download-button
+{
+    margin: 3% 5% 0 0;
+}
+.title-image
+{
+    width: 60%;
+    transform: rotate(25deg);
+    /*position: absolute;
+    right:30%;
+    z-index: 0;*/
+    margin-top: 5%;
+}
+#features
+{
+    background-color: #fff;
+    
+    /*position: relative;
+    z-index: 1;*/
+}
+.feature-box
+{
+    text-align: center;
+    padding: 5%;
+}
+.icon
+{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover
+{
+    color: #ff4c68;
+}
+#testimonials
+{
+    background-color: #ef8172;
+    text-align: center;
+}
+.testimonial-image
+{
+    width: 20%;
+    border-radius: 100%;
+}
+.testimonial-text
+{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: 400;
+}
+#press
+{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item
+{
+    padding: 7% 15%;
+}
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+.pricing
+{
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: black;
+    font-weight: 400;
+}
+.row
+{
+    padding: 3% 2%;
+}
+.price
+{
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+@media (max-width:1028px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        position: static;
+        transform: rotate(0);
+    }
+}
+#cta
+{
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+}
+.ctah3
+{
+    font-size: 3rem;
+    padding-bottom: 3%;
+}
+#footer
+{
+    text-align: center;
+    padding: 7%;
+    background-color: #fff;
+    font-weight: 500;
+}
+.footicon
+{
+    padding: 2% 1%;
+}

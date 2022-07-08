@@ -1,0 +1,29 @@
+.container .title
+{
+    color: red;
+}
+/*with space means that we are looking for a class title in class conatiner to color it red*/
+body
+{
+    background-color: antiquewhite;
+}
+h2
+{
+    color: aquamarine;
+    color: darkgreen;
+}
+.head
+{
+    color: brown;
+}
+#heading
+{
+    color: darkmagenta;
+}
+.container.title
+{
+    color: blueviolet;
+}
+/* without space means that we are looking for a selector which has both classes title and container
+to color it violet
+h1.title-->means all those seletors with class title in h1*/
